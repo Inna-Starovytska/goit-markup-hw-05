@@ -455,6 +455,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-right: 80px;
 }
 .footer-social-text {
   margin-bottom: 16px;
@@ -488,6 +489,43 @@ img {
   fill: #f4f4fd;
 }
 
+.footer-subscribe-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-bottom: 16px;
+}
+
+.email {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding-left: 24px;
+}
+
+.footer-subscribe-button {
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
 .modal {
   height: 408px;
   width: 584px;
@@ -509,6 +547,15 @@ img {
   right: 24px;
   top: 24px;
 }
+.modal-close:hover {
+  border: none;
+  background-color: #404bbf;
+  fill: #ffffff;
+}
+.modal-close:focus {
+  border: none;
+  background-color: #404bbf;
+}
 
 .modal-title {
   font-family: "Roboto", sans-serif;
@@ -519,9 +566,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-align: left;
-  max-width: 298px;
-  margin-bottom: 40px;
+  padding-bottom: 16px;
+  padding-top: 24px;
 }
 
 .modal-field {
@@ -559,7 +605,7 @@ img {
 }
 
 .modal-input::placeholder {
-  color: ;
+  color: blue;
 }
 
 .modal-label {
@@ -577,15 +623,19 @@ img {
 
 .modal-icon {
   position: absolute;
-  fill: transparent;
-  stroke: black;
+  fill: #2e2f42;
+  padding: 3px 0px;
+  width: 18px;
+  height: 24px;
   left: 24px;
   top: 22px;
   top: 50%;
   transform: translateY(-50%);
   transition: stroke 300ms linear;
 }
-
+.modal-icon:hover {
+  fill: #4d5ae5;
+}
 .modal-input-wrap {
   position: relative;
 }
@@ -630,7 +680,30 @@ img {
   fill: transparent;
 }
 .modal-check:checked + .check-text span {
-  background-color: #fd9222;
+  background-color: blue;
   border: none;
   fill: #fafafa;
+}
+
+.modal-submit {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.button-send {
+  padding-top: 24px;
+  padding-left: 119px;
+  padding-right: 120px;
 }
